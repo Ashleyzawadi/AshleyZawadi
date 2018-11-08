@@ -1,5 +1,5 @@
 body{
-    color: white;
+    color: black;
     font-family: 'Libre Barcode 39 Text', cursive;
     font-family: 'Charmonman',cursive;
 
@@ -82,13 +82,17 @@ a{
     text-align: center;
     font-size: 140%;
 }
-
+.about h2{
+    font-family: 'Slabo 27px', serif;
+}
 .contacts h2{
     font-size: 400%;
+    font-family: 'Slabo 27px', serif;
 }
 li{
     list-style: none;
     font-weight: 500;
+    font-family: 'Slabo 27px', serif;
 }
 .contacts{
     height: 100vh;
@@ -117,7 +121,42 @@ input{
 
 }
 .social img{
-    width: 100px;
+    width: 90px;
     padding-top: 3%;
     padding-left: 3%;
+}
+.card{
+    color: black;
+}
+.card img{
+    width: 100%;
+    text-align: center;
+}
+.col-md-3{
+    margin: 2%;
+    
+}
+.projects {
+    text-align: center;
+}
+.projects h1{
+    font-family: 'Slabo 27px', serif;
+}
+.icon img{
+    width: 10%;
+    height: auto;
+}
+.card h5{
+    font-weight: bold;
+    font-size: 300%;
+}
+.card p, a{
+    font-family: 'Slabo 27px', serif;
+}
+.photography{
+    background-image: url(../images/brewing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+    
 }
